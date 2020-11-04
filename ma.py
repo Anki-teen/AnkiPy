@@ -36,5 +36,66 @@ for num in range(2,100):
     if prime == True:
         print(num)
 
-#多元一次方程组正整数解
+# 组合公式
+
+def fac(num):
+    result = 1
+    for n in range(num+1):
+        result *= n
+    return result
+
+m = int(input("m = "))
+n = int(input("n = "))
+prin(fac(m) // fac(n) // fac(m-n))
+
+# 三数求和
+
+def add(a=0,b=0,c=0):
+    return a+b+c
+
+print(add(c=50,a=100,b=200))
+"""带默认值参数需放在非默认值参数后面"""
+
+# 多数求和
+
+def add(*args):
+    total = 0
+    for val in args:
+        total += val
+    return total
+
+print(add(4,5,6)+add(1,2))
+
+"""可变参数"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

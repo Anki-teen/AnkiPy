@@ -141,6 +141,16 @@ max(80, 100, 1000)
 59 repr
 
 60 reversed
+将一个序列翻转,返回翻转序列的迭代器
+myslice = slice(5)    # 设置截取5个元素的切片
+# myslice slice(None, 5, None) start stop step
+
+arr = range(10)
+
+# arr [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+arr[myslice]         # 截取 5 个元素
+[0, 1, 2, 3, 4]
 
 61 round
 round(58.28)
@@ -162,7 +172,7 @@ set("abcab")
 66 staticmethod
 
 67 str
-字符串函数
+print(str(123)+"456") #123456
 
 68 sum
 求和
@@ -170,6 +180,7 @@ set("abcab")
 69 super
 
 70 tuple
+将一个可迭代对象转换成元组
 
 71 type
 查看类型
