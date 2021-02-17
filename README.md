@@ -1,17 +1,17 @@
-这是为Python-Git部署环境的说明
+关于Git本地仓库, 文件夹AnkiPy的说明
 
-该文件所处目录即为该环境的本地仓库,通过termux实现电脑,手机,云端通信
-手机端处,
-用dir()函数实现对pythob内置函数的查看
-然后通过列表常用方法得到了这些内置函数
-builtin.py
-在日后的学习中实现对内置函数作用的补偿
+可以通过手机端的Termux实现通信
 
-ma.py
-是在Python编程练习中所遇到有关数学的汇总
 
-test.py原名为re.py
-作用是记录学习re库过程代码的文件
-文件不能命名为re.py 否则将导致模块导入错误
+Builtin.txt
+学习Python内置函数的文件
 
-解决手机端每次上传到远程仓库都需要登录的问题
+MathCodes.md
+在Python编程学习中有关数学问题的代码汇总
+
+ItchatLearn.py
+用来学习Itchat第三方库的代码,主要是以它为例
+熟悉如何在GitHub上找到资源并加以利用
+
+FileName.py
+学习Python过程中具有里程碑意义式的源代码
